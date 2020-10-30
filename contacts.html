@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>JC | Контакты</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="https://kit.fontawesome.com/ba78f8a047.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="css/bootstrap-grid.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<meta property="og:title" content="Как нас найти">
+    <meta property="og:description" content="Как нас найти">
+	<meta property="og:type" content="article">
+	<meta property="og:image" content="#">
+	<meta property="og:site_name" content="legal Advisory Services">
+	<meta name="description" content="Как нас найти">
+	<link rel="icon" href="img/favicon.png" type="image/x-icon">
+	<link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+	<script src="https://api-maps.yandex.ru/2.1/?apikey=7558c439-3350-4766-9acd-a3c6fde134f6&lang=ru_RU" type="text/javascript"></script>
+</head>
+<body>
+	<header class="headerAbout" id="headerAbout">
+		<div class="container">
+			<div class="row">
+				<div class="col-9 col-sm-6 col-md-7 col-xl-3">
+					<a href="index.html" class="logo"><span>JC</span><p>legal Advisory<br>Services</p></a>
+				</div>
+				<div class="col-xl-6 d-none d-xl-block">
+					<nav class="nav">
+						<ul class="nav__list">
+							<li class="nav__item"><a href="index.html" class="nav__btn">Главная</a></li>
+							<li class="nav__item"><a href="about.html" class="nav__btn">О компании</a></li>
+							<li class="nav__item"><a href="services.html" class="nav__btn">Услуги</a></li>
+							<li class="nav__item"><a href="contacts.html" class="nav__btn">Контакты</a></li>
+							<li class="nav__item"><a href="reviews.html" class="nav__btn">Отзывы</a></li>
+						</ul>
+					</nav>
+				</div>
+				<div class="d-none d-md-block col-md-4 col-lg-4 col-xl-3">
+					<a href="tel:+74955672815" class="link">
+						<div class="phone">
+							<div class="phone__icon"><i class="fas fa-phone-alt"></i></div>
+							<div class="phone__content">
+								<h5 class="phone__title">Заказать звонок</h5>
+								<a href="tel:+74955672815" class="phone__number">+ 7 (495) 567-28-15</a>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="col-2 col-sm-1 d-xl-none ml-auto">
+					<img src="img/strips.png" alt="strips" class="strips">
+				</div>
+			</div>
+		</div>
+	</header>
+	<section class="subheader">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3 col-xl-2">
+					<h2 class="subheader__title">Контакты</h2>
+				</div>
+				<div class="col-md-3 col-xl-2 ml-auto">
+					<a href="index.html" class="subheader__nav">Главная / Контакты</a>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="s-map">
+		<div class="container-fluid pos-r">
+				<div class="find">
+					<h3 class="find__title">Как нас найти</h3>
+					<div class="find__item">
+						<i class="find__icon fas fa-map-marker-alt"></i>
+						<p class="find__text">г. Москва, ул. Бутырская,<br>62 Z-Plaza, 5-й этаж</p>
+					</div>
+					<div class="find__item">
+						<i class="find__icon fas fa-phone-alt"></i>
+						<div class="find__text">
+							<a href="tel:+74955771811" class="find__number contact__text_tdn">+ 7 (495) 577-18-11</a><br>
+							<a href="tel:+74955672815" class="find__number contact__text_tdn">+ 7 (495) 567-28-15</a>
+						</div>
+					</div>
+					<div class="find__item">
+						<i class="find__icon far fa-envelope"></i>
+						<a  href="mail:JClegal@gmail.com" class="find__text find__mail contact__text_tdn">JClegal@gmail.com</a>
+					</div>
+					<div class="find__time">Мы работаем с 9:00 до 22:00 в рабочие дни</div>
+				</div>
+			<div class="row">
+				<div id="map" class="map"></div>
+			</div>
+		</div>
+	</section>
+	<footer class="footer">
+		<div id="container" class="container">
+			<div class="row underline">
+				<div class="col-lg-3 col-12 d-sm-flex d-lg-block pos-r">
+					<div class="logo logo_mt_0"><span>JC</span><p>legal Advisory<br>Services</p></div>
+					<div class="social">
+						<i class="social__item fab fa-facebook-f"></i>
+						<i class="social__item fab fa-facebook-messenger"></i>
+						<i class="social__item fab fa-instagram"></i>
+						<i class="social__item fab fa-youtube"></i>
+					</div>
+				</div>
+				<div id="col-menu" class="col-4 col-sm-3 col-lg-2">
+					<div class="menu">
+						<h3 class="foot-title">Меню</h3>
+						<ul class="menu__list">
+							<li class="menu__item"><a href="#" class="menu__btn">Главная</a></li>
+							<li class="menu__item"><a href="#" class="menu__btn">О компании</a></li>
+							<li class="menu__item"><a href="#" class="menu__btn">Отзывы</a></li>
+							<li class="menu__item"><a href="#" class="menu__btn">Новости</a></li>
+						</ul>
+					</div>
+				</div>
+				<div id="col-contact" class="col-8 col-sm-9 col-lg-3">
+					<div class="contact">
+						<h3 class="foot-title">Контакты</h3>
+						<div class="contact__item">
+							<i class="contact__icon fas fa-map-marker-alt"></i>
+							<p class="contact__text">г. Москва, ул. Бутырская, 62<br>Z-Plaza, 5-й этаж</p>
+						</div>
+						<div class="contact__item">
+							<i class="contact__icon fas fa-phone-alt"></i>
+							<div class="contact__text">
+								<a href="tel:+74955771811" class="contact__number contact__text_tdn">+ 7 (495) 577-18-11</a><br>
+								<a href="tel:+74955672815" class="contact__number contact__text_tdn">+ 7 (495) 567-28-15</a>
+							</div>
+						</div>
+						<div class="contact__item">
+							<i class="contact__icon far fa-envelope"></i>
+							<a  href="mail:JClegal@gmail.com" class="contact__text contact__text_tdn">JClegal@gmail.com</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-12 col-lg-4">
+					<div class="subscription">
+						<h3 class="foot-title">Подписаться на рассылку новостей</h3>
+						<div class="subscription__content">
+							<input type="text" class="subscription__input" placeholder="Ваш email">
+							<button class="subscription__btn button">Подписаться</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<span class="copyright">© 2007-2020 Все права защищены</span>
+	</footer>
+	<script src="js/map.js"></script>
+	<script src="js/jquery-3.4.1.min.js"></script>
+	<script src="js/script.js"></script>
+</body>
+</html>
